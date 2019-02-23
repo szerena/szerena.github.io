@@ -1,26 +1,35 @@
 h1 {
-    background: darkblue;
+    background: rgb(63, 96, 192);
     padding: 20px;
     color: whitesmoke;
     text-align: center;
+    font-family: Cambria
     margin: 20px;
 }
 
 body{
-    background: rgb(219, 233, 238);
+    background-color: rgb(203, 220, 224);
+    background-image: url(peach.jpeg);
+
     font-size: 20px
+
 }
+
+img{
+    float:right;
+}
+
 
 input, textarea{
     margin: 20px;
 }
 
 .title { 
-    width: 400px;
+    width: 500px;
 }
 
 .content {
-    width: 400px;
+    width: 800px;
 }
 
 .post {
