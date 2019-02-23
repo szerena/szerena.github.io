@@ -1,27 +1,55 @@
-
-<!-- saved from url=(0045)file:///home/szerena/Documents/day1/BLOG.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body><div>
+<head>
+        <!-- link:css -->
+        <link rel="stylesheet" href="BLOG.css">
+    </head>
+    <body>
     
-<div>
-    <label>Title</label>
-</div>
-    <input type="text">
-</div>
-<div>
     
-<div>
-    <label>Content</label>
-</div>
-
-    <input type="text2">
+    <h1 class="blue inner-container">
+        Runner Word
+    </h1>
     
-
-</div>
-<div>
     
-<div>
-<label>Post</label>
-</div>
-<input type="Post">
-<input type="submit">
-</div></body></html>
+    
+    
+    
+    
+    
+    
+    <div>
+        <label>Title</label>
+    </div>
+    <input class="title"type="text">
+    </div>
+    <div>
+    
+        <div>
+            <label>Content</label>
+        </div>
+        <textarea class="content" id="" cols="30" rows="10"></textarea>
+        <div><input class="submit-button" type="submit"></div>
+    </div>
+    
+    <div class="posts">
+        
+    </div>
+    
+    <div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyC8d3gCJ9G850DcpyBuY_LyCfLwUVaNIVA",
+                authDomain: "runnerblog-e38d7.firebaseapp.com",
+                databaseURL: "https://runnerblog-e38d7.firebaseio.com",
+                projectId: "runnerblog-e38d7",
+                storageBucket: "runnerblog-e38d7.appspot.com",
+                messagingSenderId: "786173698343"
+            };
+            firebase.initializeApp(config);
+        </script>
+        <script src="Blog.js"></script>
+        
+    </div></body>

@@ -1,0 +1,29 @@
+h1 {
+    background: darkblue;
+    padding: 20px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 20px;
+}
+
+body{
+    background: rgb(219, 233, 238);
+    font-size: 20px
+}
+
+input, textarea{
+    margin: 20px;
+}
+
+.title { 
+    width: 400px;
+}
+
+.content {
+    width: 400px;
+}
+
+.post {
+    height: 200px;
+    width: 800px;
+}
